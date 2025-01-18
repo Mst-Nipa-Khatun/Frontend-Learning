@@ -1,0 +1,21 @@
+
+.box {
+    background-color: #4527a0;
+    color: white;
+    text-align: center;
+    padding: 21px;
+    border: 1px solid #ffffff;
+}
+
+.logo{
+    background-color: #4527a0;
+}
+
+
+.header {
+    height: fit-content;
+}
+
+.footer,.notice,.biography,.body,.sidebar,.header {
+    background-color: #4527a0;
+}
