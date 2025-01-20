@@ -3,19 +3,20 @@
     background-color: #4527a0;
     color: white;
     text-align: center;
-    padding: 21px;
+    /*padding: 35px;*/
     border: 1px solid #ffffff;
 }
 
 .logo{
-    background-color: #4527a0;
+    background-color: rgb(69, 39, 160);
 }
-
+.logo img{
+    float: left;
+}
 
 .header {
     height: fit-content;
+    padding: 20px;
+    text-align: center;
 }
 
-.footer,.notice,.biography,.body,.sidebar,.header {
-    background-color: #4527a0;
-}
