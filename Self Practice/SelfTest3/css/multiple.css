@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar{
+    width: 100%;
+    height: 75px;
+    padding:5px 5px;
+    background-color: #b1c1ba;
+
+}
+.profile{
+    border: 1px solid black;
+    height: 100%;
+}
+.profile img{
+    margin-top: 8px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
