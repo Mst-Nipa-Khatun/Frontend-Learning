@@ -8,49 +8,52 @@
     <title>Multiple Form</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/multiple.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
 <div class="navBar">
     <div class="row">
         <div class="col col-md-4">
             <div class="row">
-                <div class="col col-md-6">
+                <div class="col col-md-6 ">
                     <img src="images/BA-logo.png" alt="This is ba logo">
                 </div>
                 <div class="col col-md-6">
-                    <img src="images/BA-logo.png" alt="This is ba logo">
+                    <img src="images/BA-logo.png"
+                         style="background-size: contain"
+                         alt="This is ba logo">
                 </div>
             </div>
         </div>
         <div class="col col-md-8">
             <div class="row">
-                <div class="col col-md-4">
+                <div class="col col-md-5">
                     <!--INFO navbar middle stage-->
                 </div>
 
-                <div class="col col-md-8">
+                <div class="col col-md-6 mr-5">
                     <div class="row">
-                        <div class="col col-md-2">
-                            <img src="images/BA-logo.png" alt="This is ba logo">
+                        <div class="col col-md-3  m-0 p-0 text-end">
+                            <i class="fa-solid fa-search fa-3x"></i>
                         </div>
-                        <div class="col col-md-2">
-                            <img src="images/BA-logo.png" alt="This is ba logo">
+                        <div class="col col-md-3  m-0 p-0 text-center">
+                            <i class="fa-solid fa-house-chimney fa-3x"></i>
                         </div>
-                        <div class="col col-md-2">
-                            <img src="images/BA-logo.png" alt="This is ba logo">
+                        <div class="col col-md-3 m-0 p-0 text-center">
+                            <i class="fa-solid fa-circle-plus fa-3x"></i>
                         </div>
-                        <div class="col col-md-2">
-                            <img src="images/BA-logo.png" alt="This is ba logo">
-                        </div>
-                        <div class="col col-md-4">
-                            <div class="row card profile">
-                                <div class="col col-md-3">
-                                    <img src="./images/Nipa.jpg">
-                                </div>
 
-                                <div class="col col-md-9">
-                                    <div class="row">
+                        <div class="col col-md-3 m-0 p-0">
+                            <div class="row card profile" style="float:left;">
+                                <div class="user">
+                                    <img src="./images/Nipa.jpg" class="user-img">
+                                    <div style="">
+                                        <h2>Nipa Khatun</h2>
+                                        <p>mknipa.iit@gmail.com</p>
                                     </div>
+                                    <!--                                    <img src="./images/Start.jpeg" class="start-img">-->
                                 </div>
                             </div>
                         </div>
@@ -67,7 +70,9 @@
             <input type="text" class="form-control" value="Apply Industrial project " style="background-color: #84a2cd">
         </div>
         <div class=" sample col-md-2 ">
-            <input type="text" class="form-control" value="Download sample form" style="background-color: #c66e3e">
+            <button type="button" style="background-color: #F0AD4E;padding: 3px; border-radius: 5px">Download sample
+                form
+            </button>
         </div>
     </div>
 
@@ -102,7 +107,7 @@
     <div class="row mb-3">
         <div class=" col-md-5">
             <input type="text" class="form-control"
-                   value="Name of organization company/company/Industrial Project(English)" " style="border: none">
+                   value="Name of organization company/company/Industrial Project(English)" style="border: none">
         </div>
         <div class="col-md-7">
             <input type="text" class="form-control" value="UAT private Ltd." style="background-color: #cdd8d4">
@@ -111,7 +116,7 @@
     <div class="row mb-3">
         <div class=" col-md-5">
             <input type="text" class="form-control"
-                   value="Name of organization company/company/Industrial Project(Bangla)" " style="border: none">
+                   value="Name of organization company/company/Industrial Project(Bangla)" style="border: none">
         </div>
         <div class="col-md-7">
             <input type="text" class="form-control" value="UAT private Ltd." style="background-color: #cdd8d4">
@@ -131,7 +136,7 @@
             </select>
         </div>
         <div class=" col-md-3">
-            <input type="text" class="form-control" value="Status of organization" style="border: none">
+            <p class="required">Status of organization"</p>
         </div>
         <div class="col-md-3">
             <select class="form-select">
@@ -156,7 +161,7 @@
             </select>
         </div>
         <div class=" col-md-3">
-            <input type="text" class="form-control" value="Country of origin" style="border: none">
+            <p class="required">Country of origin</p>
         </div>
         <div class="col-md-3">
             <select class="form-select">
@@ -369,7 +374,462 @@
                            style="background-color: #96b2da">
                 </div>
             </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Division" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <select class="form-select">
+                    <option selected>Select</option>
+                    <option>Myn</option>
+                    <option>Sylhet</option>
+                    <option>Dhaka</option>
+                </select>
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Police Station" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <select class="form-select">
+                    <option selected>Select</option>
+                    <option>Rup pur</option>
+                    <option>Khan</option>
+                    <option>Taran</option>
+                </select>
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="District" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <select class="form-select">
+                    <option selected>Select</option>
+                    <option>Mym.</option>
+                    <option>Sylhet</option>
+                    <option>Dhaka</option>
+                </select>
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Post Code" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control">
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Post Office" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" value=" ">
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Telephone No" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control">
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Address" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" value=" ">
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Fax No" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control">
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Mobile No" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control" value=" ">
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Email" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="email" class="form-control">
+            </div>
+
+
         </div>
+    </form>
+</div>
+
+
+<div>
+    <form>
+        <div class="row mb-3">
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <input type="text" class="form-control"
+                           value="Factory Address"
+                           style="background-color: #96b2da">
+                </div>
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="District" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <select class="form-select">
+                    <option selected>Select</option>
+                    <option>Mymen</option>
+                    <option>Sylhet</option>
+                    <option>Dhaka</option>
+                </select>
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Police Station" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <select class="form-select">
+                    <option selected>Select</option>
+                    <option>Zila</option>
+                    <option>Zila</option>
+                    <option>Zila</option>
+                </select>
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Post Office" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control">
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Post Code" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control">
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Address" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" value=" ">
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Telephone No" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control">
+            </div>
+
+
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Mobile No" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" value=" ">
+            </div>
+            <div class=" col-md-3">
+                <input type="text" class="form-control" value="Fax No" style="border: none">
+            </div>
+            <div class="col-md-3">
+                <input type="number" class="form-control">
+            </div>
+
+
+        </div>
+    </form>
+</div>
+
+
+<div class="why">
+    Please specify your desired office.
+</div>
+<div class="large-div-text">
+    <div>
+        <p style="color:red;">N.B Select your preffed <b>office Division</b> and <b>factory division</b> to select ur
+            desired offics </p>
+        <div class="row mb-2">
+            <div style="border-radius: 5px;background-color: #D9EDF7"
+                 class="col col-md-3 pt-1 pb-1">
+                Division office Mymensing
+                <input style="float: right" type="checkbox" class="form-check-input">
+            </div>
+
+        </div>
+    </div>
+</div>
+<br>
+
+
+<div>
+    <form>
+        <div class="row mb-3">
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <input type="text" class="form-control"
+                           value="Registration Information"
+                           style="background-color: #96b2da">
+                </div>
+            </div>
+
+
+            <div class="why required mt-2">
+                1.Project Status
+            </div>
+            <div class="large-div-text">
+                <div class="row">
+                    <div class=" col-md-3">
+                        <input type="text" class="form-control" value="Project Status" style="border: none">
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option selected>Select</option>
+                            <option>On the way</option>
+                            <option>50% done</option>
+                            <option>80% done</option>
+                        </select>
+                    </div>
+                    <div class="col-md-5">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="why required mt-2">
+                2.Annual Production capacity
+            </div>
+            <div class="large-div-text">
+                <div class="row">
+
+                    <div class="container mt-4">
+                        <table class="table custom-table">
+                            <thead>
+                            <tr>
+                                <th class="required">Name of Product</th>
+                                <th class="required">Unit of Quantity</th>
+                                <th class="required">Quantity</th>
+                                <th class="required">Price (USD)</th>
+                                <th class="required">Sales Value in BDT (in million)</th>
+                                <th>#</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td>
+                                    <select class="select-cell">
+                                        <option>Select one</option>
+                                        <option>Unit 1</option>
+                                        <option>Unit 2</option>
+                                    </select>
+                                </td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td>
+                                    <button class="add-btn">+</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p class="note">
+                            Exchange Rate Ref: <a href="https://www.bb.org.bd/" target="_blank">Bangladesh Bank</a>.
+                            Please Enter Today's Exchange Rate.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="why required mt-2">
+                3.Date of commercial op.
+            </div>
+            <div class="large-div-text">
+                <div class="row">
+                    <div class=" col-md-3">
+                        <p>Date of commercial operation</p>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="date" class="form-control" id="date" placeholder="Enter">
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="why required mt-2">
+                4.Sales(in 100%)
+            </div>
+            <div class="large-div-text">
+                <div class="row">
+                    <div class=" col-md-1">
+                        <p>Local</p>
+                    </div>
+                    <div class="col-md-1">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class=" col-md-1">
+                        <p>Foreign</p>
+                    </div>
+                    <div class="col-md-1">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class=" col-md-1">
+                        <p>Total In %</p>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-5">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="why required mt-2">
+                5.Manpower of the org.
+            </div>
+            <div class="large-div-text">
+                <div class="row">
+                    <div class="container mt-4">
+                        <table class="table custom-table">
+                            <thead>
+                            <tr>
+                                <th colspan="3" class="colspan-header">Local (Bangladesh only)</th>
+                                <th colspan="3" class="colspan-header">Foreign (Abroad country)</th>
+                                <th colspan="1">Grand total</th>
+                                <th colspan="2">Ratio</th>
+                            </tr>
+                            <tr>
+                                <th>Executive</th>
+                                <th>Supporting Staff</th>
+                                <th>Total (a)</th>
+                                <th>Executive</th>
+                                <th>Supporting Staff</th>
+                                <th>Total (b)</th>
+                                <th>(a+b)</th>
+                                <th>Local</th>
+                                <th>Foreign</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                                <td><input type="text" class="input-cell" placeholder=""></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="why required mt-2">
+                6. Investment
+            </div>
+            <div class="large-div-text">
+                <div class="row">
+                    <div class="container mt-4">
+                        <table class="table investment-custom-table table-striped">
+                            <thead>
+                            <tr>
+                                <th colspan="3" style="float: left">Items</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td colspan="3"><strong>Fixed Investment</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Land (Million)</td>
+                                <td><input type="text" class="form-control"></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Building (Million)</td>
+                                <td><input type="text" class="form-control"></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Machinery & Equipment (Million) <span class="required-label"></span></td>
+                                <td><input type="text" class="form-control"></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Others (Million)</td>
+                                <td><input type="text" class="form-control"></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Working Capital (Three Months) (Million)</td>
+                                <td><input type="text" class="form-control"></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Total Investment (Million) (BDT)</td>
+                                <td><input type="text" class="form-control" disabled></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Total Investment (BDT)</td>
+                                <td><input type="text" class="form-control" disabled></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Dollar exchange rate (USD) <span class="required-label"></span></td>
+                                <td>
+                                    <input type="text" class="form-control">
+                                    <p class="note">Exchange Rate Ref: <a href="https://www.bb.org.bd/" target="_blank">Bangladesh
+                                        Bank</a>. Please Enter Today's Exchange Rate.</p>
+                                </td>
+                                <td>USD</td>
+                            </tr>
+                            <tr>
+                                <td>Total Fee (BDT)</td>
+                                <td><input type="text" class="form-control" disabled></td>
+                                <td>BDT</td>
+                            </tr>
+                            <tr>
+                                <td>Project Profile:</td>
+                                <td colspan="2">
+                                    <input type="file" class="form-control">
+                                    <span class="form-note">N.B.: Maximum PDF file upload size 2MB</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <button class="btn-submit float-end">Govt. Fees Calculator</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
     </form>
 </div>
 </body>
