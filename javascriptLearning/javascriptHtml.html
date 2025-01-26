@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript</title>
+    <script>
+
+    /*For link js file.....*/
+    </script>
+</head>
+<body>
+    <input type="number" placeholder="Enter first value" id="first">
+    <input type="number" placeholder="Enter snd value" id="snd">
+    <button onclick="sum()">Calculate Sum</button>
+    <span id="output">
+
+    </span>
+</body>
+</html>
+
+<script>
+    function sum() {
+        let first = document.getElementById("first").value;
+        let snd = document.getElementById("snd").value;
+        let sum  = parseInt(first)+parseInt(snd);
+
+        document.getElementById("output").innerText= sum;
+        if (sum%2==0){
+            alert("even")
+            return
+        }
+        alert("odd")
+    }
+    document.getElementById("output").addEventListener("mouseover",function () {
+        alert("oi ki koros")
+    })
+
+</script>

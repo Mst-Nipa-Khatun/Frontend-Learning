@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2ccd923-ce24-4439-a299-ac38ef48ad6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assignment-02-MST NIPA KHATUN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/.idea/springboot-adminlte3-template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/img/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/img/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/img/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/img/user-add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/img/user-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/java/com/hendisantika/SpringbootAdminlte3TemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/java/com/hendisantika/controller/WebPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/css/multiple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/BA-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/Nipa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/Settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/Start.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/ba logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/bapeople.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/images/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/multipleForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/shared/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/shared/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/shared/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/shared/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/shared/script.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/main/resources/templates/shared/style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/test/java/com/hendisantika/SpringbootAdminlte3TemplateApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-adminlte3-template/springboot-adminlte3-template/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Self Practice/SelfTest3/css/multiple.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Self Practice/SelfTest3/css/multiple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Self Practice/SelfTest3/multiple.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Self Practice/SelfTest3/multiple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.bundlewatch.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/ISSUE_TEMPLATE/bug-report-for-adminlte-v3.1-x.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/ISSUE_TEMPLATE/feature-request-for-adminlte-v4-x.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/codeql/codeql-config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/workflows/bundlewatch.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/workflows/codeql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/workflows/docs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/workflows/lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/workflows/node-sass.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.github/workflows/release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.gitpod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.lgtm.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.stylelintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/AdminLTEFullLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/AdminLTELogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/avatar4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/boxed-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/boxed-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/credit/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/credit/cirrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/credit/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/credit/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/credit/paypal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/credit/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/default-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/photo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/photo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/prod-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/prod-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/prod-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/prod-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/prod-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user1-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user2-160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user3-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user4-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user5-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user6-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user7-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/assets/img/user8-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/css/adminlte.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/js/adminlte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/js/adminlte.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/js/adminlte.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/js/adminlte.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/UI/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/UI/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/UI/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/browser-support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/color-mode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/components/main-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/components/main-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/how-to-contribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/javascript/treeview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/docs/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/examples/lockscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/examples/login-v2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/examples/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/examples/register-v2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/examples/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/forms/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/generate/theme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/layout/collapsed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/layout/fixed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/layout/layout-custom-area.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/layout/layout-rtl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/layout/logo-switch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/layout/sidebar-mini.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/layout/unfixed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/tables/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/widgets/cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/widgets/info-box.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/dist/pages/widgets/small-box.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/AdminLTEFullLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/AdminLTELogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/avatar4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/boxed-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/boxed-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/credit/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/credit/cirrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/credit/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/credit/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/credit/paypal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/credit/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/default-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/photo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/photo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/prod-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/prod-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/prod-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/prod-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/prod-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user1-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user2-160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user3-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user4-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user5-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user6-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user7-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/assets/img/user8-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/config/assets.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/config/astro.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/config/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/config/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/.prettierrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/.tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/_head.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/_scripts.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/dashboard/_footer.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/dashboard/_sidenav.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/dashboard/_topbar.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/browser-support.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/color-mode.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/components/main-header.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/components/main-sidebar.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/faq.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/how-to-contribute.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/introduction.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/docs/license.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/components/javascript/treeview.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/UI/general.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/UI/icons.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/UI/timeline.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/browser-support.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/color-mode.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/components/main-header.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/components/main-sidebar.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/faq.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/how-to-contribute.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/introduction.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/javascript/treeview.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/layout.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/docs/license.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/examples/lockscreen.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/examples/login-v2.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/examples/login.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/examples/register-v2.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/examples/register.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/forms/general.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/generate/theme.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/index.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/index2.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/index3.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/layout/collapsed-sidebar.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/layout/fixed-sidebar.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/layout/layout-custom-area.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/layout/layout-rtl.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/layout/logo-switch.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/layout/sidebar-mini.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/layout/unfixed-sidebar.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/tables/simple.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/widgets/cards.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/widgets/info-box.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/html/pages/widgets/small-box.astro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_app-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_app-footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_app-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_app-main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_app-sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_app-wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_bootstrap-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_callouts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_compact-mode.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_direct-chat.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_docs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_info-box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_miscellaneous.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_small-box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_timeline.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_variables-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/adminlte.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/mixins/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/mixins/_scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/pages/_lockscreen.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/pages/_login_and_register.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/parts/_components.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/parts/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/parts/_extra-components.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/parts/_miscellaneous.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/scss/parts/_pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/adminlte.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/card-widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/direct-chat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/fullscreen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/layout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/push-menu.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/treeview.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/ts/util/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminLTE-4.0.0-beta3/AdminLTE-4.0.0-beta3/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Mst-Nipa-Khatun"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mst-Nipa-Khatun/Frontend-Learning.git",
+    "accountId": "c551b77a-7507-4ab6-9f39-2dd24e1f814e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2rydUOf6TEkbKwI4RbWVuMtSvVM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SpringbootAdminlte3TemplateApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Nipa/Frontend Learning/bussiness Automation Assignment/assignment-02-MST NIPA KHATUN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringbootAdminlte3TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-adminlte3-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hendisantika.SpringbootAdminlte3TemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2ccd923-ce24-4439-a299-ac38ef48ad6c" name="Changes" comment="" />
+      <created>1737535263818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737535263818</updated>
+      <workItem from="1737535265022" duration="2967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -53,7 +53,6 @@
                                         <h2>Nipa Khatun</h2>
                                         <p>mknipa.iit@gmail.com</p>
                                     </div>
-                                    <!--                                    <img src="./images/Start.jpeg" class="start-img">-->
                                 </div>
                             </div>
                         </div>
@@ -75,57 +74,56 @@
             </button>
         </div>
     </div>
+</form>
 
-    <div class="row mb-3">
-        <div class="col-md-2">
-            <button type="button" class="btn btn-primary"> 1.Registration Info</button>
-        </div>
-        <div class="col-md-2">
-            <button type="button" class="btn btn-primary" style="background-color: #5f7da6">2.List of Directors</button>
-        </div>
-        <div class="col-md-2">
-            <button type="button" class="btn btn-primary" style="background-color: #5f7da6">3.List of Mecheneris
-            </button>
-        </div>
-        <div class="col-md-2">
-            <button type="button" class="btn btn-primary" style="background-color: #5f7da6">4.Attachments</button>
-        </div>
-        <div class="col-md-2">
-            <button type="button" class="btn btn-primary" style="background-color: #5f7da6">5.Declarations</button>
-        </div>
-        <div class="col-md-2">
-            <button type="button" class="btn btn-primary" style="background-color: #5f7da6">6.Payment & Submit</button>
-        </div>
+<div class="row mb-3">
+    <div class="col-md-2">
+        <button type="button" class="btn btn-primary"> 1.Registration Info</button>
+    </div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-primary" style="background-color: #5f7da6">2.List of Directors</button>
+    </div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-primary" style="background-color: #5f7da6">3.List of Mecheneris
+        </button>
+    </div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-primary" style="background-color: #5f7da6">4.Attachments</button>
+    </div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-primary" style="background-color: #5f7da6">5.Declarations</button>
+    </div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-primary" style="background-color: #5f7da6">6.Payment & Submit</button>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-12">
+        <p style="background-color: #96b2da"> Company Information</p>
     </div>
 
-    <div class="row mb-3">
-        <div class="col-md-12">
-            <input type="text" class="form-control" value="Company Information" style="background-color: #96b2da">
-        </div>
-    </div>
-
+<form id="companyInformation">
     <div class="row mb-3">
         <div class=" col-md-5">
-            <input type="text" class="form-control"
-                   value="Name of organization company/company/Industrial Project(English)" style="border: none">
+            <p>Name of organization company/company/Industrial Project(English)</p>
         </div>
         <div class="col-md-7">
-            <input type="text" class="form-control" value="UAT private Ltd." style="background-color: #cdd8d4">
+            <input type="text" class="form-control" placeholder="UAT private Ltd." style="background-color: #cdd8d4">
         </div>
     </div>
     <div class="row mb-3">
         <div class=" col-md-5">
-            <input type="text" class="form-control"
-                   value="Name of organization company/company/Industrial Project(Bangla)" style="border: none">
+            <p>Name of organization company/company/Industrial Project(Bangla)</p>
         </div>
         <div class="col-md-7">
-            <input type="text" class="form-control" value="UAT private Ltd." style="background-color: #cdd8d4">
+            <input type="text" class="form-control" placeholder="UAT private Ltd." style="background-color: #cdd8d4">
         </div>
     </div>
 
     <div class="row mb-3">
         <div class=" col-md-3">
-            <input type="text" class="form-control" value="Types of the organization" style="border: none">
+            <p>Types of the organization</p>
         </div>
         <div class="col-md-3">
             <select class="form-select" style="background-color: #b1c1ba">
@@ -150,7 +148,7 @@
 
     <div class="row mb-3">
         <div class=" col-md-3">
-            <input type="text" class="form-control" value="Ownership Status" style="border: none">
+            <p>Ownership Status</p>
         </div>
         <div class="col-md-3">
             <select class="form-select" style="background-color: #b1c1ba">
@@ -174,7 +172,7 @@
     </div>
     <div class="row mb-3">
         <div class=" col-md-5">
-            <input type="text" class="form-control" value="Name of the projects " style="border: none">
+            <p>Name of the projects </p>
         </div>
         <div class="col-md-7">
             <input type="text" class="form-control" value="  ">
@@ -182,7 +180,7 @@
     </div>
     <div class="row mb-3">
         <div class=" col-md-5">
-            <input type="text" class="form-control" value="Business sector(BBS class code)" style="border: none">
+            <p>Business sector(BBS class code)</p>
         </div>
         <div class="col-md-7">
             <input type="text" class="form-control" value=" ">
@@ -191,7 +189,7 @@
     </div>
     <div class="row mb-3">
         <div class=" col-md-5">
-            <input type="text" class="form-control" value="Major Activities in brief" style="border: none">
+            <p>Major Activities in brief</p>
         </div>
         <div class="col-md-7">
             <textarea class="form-control" rows="3" placeholder="This is private company limited"></textarea>
@@ -352,7 +350,8 @@
                             </div>
                             <div class="form-check form-check-inline">
                                 <label for="female" class="form-check-label">Female</label>
-                                <input type="radio" id="female" class="form-check-input" name="gender" value="female">
+                                <input type="radio" id="female" class="form-check-input" name="gender"
+                                       value="female">
                             </div>
                         </div>
                     </div>
@@ -554,7 +553,8 @@
 </div>
 <div class="large-div-text">
     <div>
-        <p style="color:red;">N.B Select your preffed <b>office Division</b> and <b>factory division</b> to select ur
+        <p style="color:red;">N.B Select your preffed <b>office Division</b> and <b>factory division</b> to select
+            ur
             desired offics </p>
         <div class="row mb-2">
             <div style="border-radius: 5px;background-color: #D9EDF7"
@@ -798,7 +798,8 @@
                                 <td>Dollar exchange rate (USD) <span class="required-label"></span></td>
                                 <td>
                                     <input type="text" class="form-control">
-                                    <p class="note">Exchange Rate Ref: <a href="https://www.bb.org.bd/" target="_blank">Bangladesh
+                                    <p class="note">Exchange Rate Ref: <a href="https://www.bb.org.bd/"
+                                                                          target="_blank">Bangladesh
                                         Bank</a>. Please Enter Today's Exchange Rate.</p>
                                 </td>
                                 <td>USD</td>
@@ -812,7 +813,7 @@
                                 <td>Project Profile:</td>
                                 <td colspan="2">
                                     <input type="file" class="form-control">
-                                    <span class="form-note">N.B.: Maximum PDF file upload size 2MB</span>
+                                    <span>N.B.: Maximum PDF file upload size 2MB</span>
                                 </td>
                             </tr>
                             <tr>
@@ -825,12 +826,200 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
+            <br>
 
 
+            <div class="why required mt-2">
+                7.Source Of Finance
+            </div>
+            <div class="large-div-text">
+                <div class="row">
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Local Equity (Million)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Foreign Equity (Million)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Total Equity (Million)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" readonly>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Local Loan (Million)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Foreign Loan (Million)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Total Loan (Million)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" readonly>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Total Financing Million (Equity + Loan)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" readonly>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <label class="col-md-6 col-form-label fw-bold">Total Financing BDT (Equity + Loan)</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" readonly>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <p class="fw-bold"><i class="text-danger">?</i> Country-wise source of finance (Million BDT)</p>
+                        <div class="row g-2 align-items-center">
+                            <div class="col-md-4">
+                                <label for="amount" class="form-label required">Country</label>
+                                <select class="form-select" required>
+                                    <option selected>Select one</option>
+                                    <option value="1">Country 1</option>
+                                    <option value="2">Country 2</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="amount" class="form-label required">Equity Amount</label>
+                                <input type="text" id="amount" class="form-control" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="amount" class="form-label required">Loan Amount</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-md-1">
+                                <button type="button" class="btn btn-primary">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="why required mt-2">
+                    8.Public Utility Service
+                </div>
+                <div class="large-div-text">
+                    <div class="row">
+                        <div class=" col-md-1">
+                            <input class="form-check-input" type="checkbox" id="land">
+                            <label class="form-check-label" for="land">Land</label>
+                        </div>
+                        <div class="col-md-1">
+                            <input class="form-check-input" type="checkbox" id="electricity">
+                            <label class="form-check-label" for="electricity">Electricity</label>
+                        </div>
+                        <div class=" col-md-1">
+                            <input class="form-check-input" type="checkbox" id="gas">
+                            <label class="form-check-label" for="gas">Gas</label>
+                        </div>
+                        <div class="col-md-1">
+                            <input class="form-check-input" type="checkbox" id="telephone">
+                            <label class="form-check-label" for="telephone">Telephone</label>
+                        </div>
+                        <div class=" col-md-1">
+                            <input class="form-check-input" type="checkbox" id="road">
+                            <label class="form-check-label" for="road">Road</label>
+                        </div>
+                        <div class="col-md-1">
+                            <input class="form-check-input" type="checkbox" id="water">
+                            <label class="form-check-label" for="water">Water</label>
+                        </div>
+                        <div class="col-md-1">
+                            <input class="form-check-input" type="checkbox" id="drainage">
+                            <label class="form-check-label" for="drainage">Drainage</label>
+                        </div>
+                        <div class="col-md-1">
+                            <input class="form-check-input" type="checkbox" id="others">
+                            <label class="form-check-label" for="others">Others</label>
+                        </div>
+                        <div class="col-md-4">
+
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="why required mt-2">
+                    9.Public Utilty Service
+                </div>
+                <div class="large-div-text">
+                    <div class="row">
+                        <div class=" col-md-2">
+                            <p>Trade Licence Number</p>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class=" col-md-2">
+                            <p>Issuing Authority</p>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="col-md-2">
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <br>
+                <br>
+
+
+                <div class="why required mt-2">
+                    10.TIN Number
+                </div>
+                <div class="large-div-text">
+                    <div class="row">
+                        <div class=" col-md-2">
+                            <input type="text" class="form-control required " value="Tin Number" style="border: none">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control ></input>
+                        </div>
+                        <div class=" col-md-7">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="button-container">
+                    <button class="btn btn-save">Save as Draft</button>
+                    <div>
+                        <button class="btn btn-previous">Previous</button>
+                        <button class="btn btn-next">Next</button>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
     </form>
 </div>
+
+</form>
 </body>
 </html>
