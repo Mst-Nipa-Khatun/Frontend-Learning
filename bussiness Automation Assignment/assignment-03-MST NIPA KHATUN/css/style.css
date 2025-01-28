@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #936b6b;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #7a5858;
+    font-family: Arial, sans-serif;
+}
+
+#ResultField {
+    height: 40px;
+}
+
+.calculatorBody {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 550px;
+}
+
+#delete {
+    background-color: #e32d2d;
+}
+
+#equal {
+    background-color: #5990df;
+}
+
+input:not(#ResultField,#delete,#equal) {
+    background-color: #cfbbbb;
+}
+
+input:not(#ResultField) {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+input:not(#ResultField):hover {
+    background-color: #EDF2FA;
+}
+
+table {
+    margin-left: 10px;
+    padding: -42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

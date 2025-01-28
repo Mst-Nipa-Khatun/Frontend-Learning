@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Maker Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+
+    <style>
+        .select2-selection {
+            margin-top: 10px !important;
+            height: 36px !important;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container py-5">
+    <h1 class="text-center mb-4">Mst. Nipa Khatun</h1>
+    <form id="cvForm">
+        <div class="mb-4">
+            <h3>Personal Information</h3>
+            <div class="row">
+                <div class="col-md-6 mb-3 ">
+                    <label for="name" class="form-label required">Name</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="email" class="form-label required">Email</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="phone" class="form-label required">Phone</label>
+                    <input type="number" class="form-control" id="phone" name="phone">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="dob" class="form-label required">Date of Birth</label>
+                    <input type="date" class="form-control" id="dob" name="dob">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label required">Address</label>
+                <textarea class="form-control" id="address" name="address" rows="3"></textarea>
+            </div>
+        </div>
+
+
+        <div class="mb-4">
+            <h3>Division and District</h3>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="division" style="height: 10px" class="form-label required">Division</label>
+                    <select
+                            class="form-select select2" id="division" name="division">
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="district" class="form-label required">District</label>
+                    <select class="form-select select2" id="district" name="district">
+
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mb-4">
+            <h3>Education</h3>
+            <table class="table" id="educationTable">
+                <thead>
+                <tr>
+                    <th class="required">Qualification</th>
+                    <th class="required">Institution</th>
+                    <th class="required">Graduation Year</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="text" class="form-control " name="qualification[]"></td>
+                    <td><input type="text" class="form-control" name="institution[]"></td>
+                    <td><input type="number" class="form-control" name="gradYear[]"></td>
+
+                    <!--ForntAwesome use korte hobe-->
+                    <td>
+                        <button type="button" class="btn btn-danger removeRow">
+                            <i class="fa-solid fa-trash"></i>
+                            </button>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-primary" id="addEducationRow">
+                <i class="fa-solid fa-add"></i>
+                Add Row</button>
+        </div>
+
+        <div class="mb-4">
+            <h3>Skills and Sub Skills</h3>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="skills" class="form-label">Skills</label>
+                    <select class="form-select select2 skills w-100" id="skills">
+
+                    </select>
+
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="subSkills" class="form-label">Sub Skills</label>
+                    <select class="form-select select2 subSkills w-100" id="subSkills">
+
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br>
+
+
+        <!--Dymanic row korte hobe-->
+        <div class="mb-4">
+            <h3>Experience</h3>
+
+            <div id="workExperience">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="jobTitle" class="form-label">Job Title</label>
+                        <input type="text" class="form-control" id="jobTitle">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="companyName" class="form-label">Company Name</label>
+                        <input type="text" class="form-control" id="companyName">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="duration" class="form-label">Duration</label>
+                        <input type="text" class="form-control" id="duration">
+                    </div>
+
+                    <div class="col-md-1 d-flex align-items-end">
+                        <button type="button" class="btn btn-danger removeExperience">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" id="addExperience">
+                <i class="fa-solid fa-add"></i>
+                Add Experience</button>
+        </div>
+
+        <!--Select2-->
+        <div class="mb-7">
+            <h3>Languages</h3>
+            <div>
+                <select class="select2 languages" style="width: 100%;"></select>
+                <button onclick="getSelectedData2()">Click</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".subSkills").select2({
+            multiple:true
+        });//just for object creation to show same UI as like skills
+        $(".skills").select2({
+            minimumInputLength: 0,
+            allowClear: true,
+            multiple: true,
+            ajax: {
+                url: "http://localhost:8086/api/skills",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                dataType: 'json',
+                delay: 500,// wait 500 milliseconds before triggering the request
+                processResults: (response, params) => {
+                    console.log(response)
+                    const results = response.map(item => {
+                        return {
+                            id: item.id,//this will treat as value
+                            text: item.name//This will be treat as data
+                        };
+                    });
+                    return {
+                        results: results
+                    }
+                },
+            },
+        });
+
+        $(".languages").select2({
+            minimumInputLength: 0,
+            allowClear: true,
+            multiple: true,
+            ajax: {
+                url: "http://localhost:8086/get/json/language",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                dataType: 'json',
+                delay: 500,// wait 500 milliseconds before triggering the request
+                data: (params) => {
+                    return {
+                        searchData: params.term, //searchable text.
+                        page: params.page || 1
+                    }
+                },
+                processResults: (response, params) => {
+                    debugger
+                    console.log(response)
+                    const results = response.content.map(item => {
+                        return {
+                            id: item.id,//this will treat as value
+                            text: item.name//This will be treat as data for show
+                        };
+                    });
+                    return {
+                        results: results,
+                        pagination: {
+                            more: ((params.page || 1) * 10) < response.totalElements//*per page we get 10 data here*/
+                        }
+                    }
+                },
+            },
+        });
+
+        $("#division").select2({
+            minimumInputLength: 0,
+            allowClear: true,
+            multiple: false,
+            ajax: {
+                url: 'https://bdapis.com/api/v1.2/divisions',//This is public api
+                /* headers: {
+                     "Content-Type": "application/json",
+                     "Accept": "application/json"
+                 },*/
+                dataType: 'json',
+                delay: 500,
+                processResults: (response, params) => {
+                    console.log(response)
+                    const results = response.data.map(item => {
+                        return {
+                            id: item.division,//this will treat as value
+                            text: item.division//This will be treat as data
+                        };
+                    });
+                    return {
+                        results: results
+                    }
+                },
+            },
+        })
+    })
+
+
+    function getSelectedData() {
+        let value = $(".skills").val();
+        alert(value)
+    }
+
+    function getSelectedData2() {
+        let value = $(".languages.select2").val();
+        alert(value)
+    }
+
+
+    $('#division').change(function () {
+        // Fetch Districts based on Division name
+        const divisionName = $(this).val();
+        loadDistrictByDivisionName(divisionName)
+    });
+
+    $('.skills').change(function () {
+        // Fetch Districts based on Division name
+        const selectedSkillId = $(this).val();
+        loadSubSkillsBySkillId(selectedSkillId)
+    });
+
+    function loadSubSkillsBySkillId(skillId) {
+        $(".subSkills").select2({
+            minimumInputLength: 0,
+            allowClear: true,
+            multiple: true,
+            ajax: {
+                url: "http://localhost:8086/api/skills/sub-skills/"+skillId,
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                dataType: 'json',
+                delay: 500,// wait 500 milliseconds before triggering the request
+                processResults: (response, params) => {
+                    console.log(response)
+                    const results = response.map(item => {
+                        return {
+                            id: item.id,//this will treat as value
+                            text: item.name//This will be treat as data
+                        };
+                    });
+                    return {
+                        results: results
+                    }
+                },
+            },
+        });
+    }
+
+
+    function loadDistrictByDivisionName(divisionName) {
+
+        $("#district").select2({
+            /*Without pagination select2*/
+            minimumInputLength: 0,
+            allowClear: true,
+            multiple: false,
+            ajax: {
+                url: 'https://bdapis.com/api/v1.2/division/' + divisionName,/*This is public api*/
+                dataType: 'json',
+                delay: 500,
+                processResults: (response, params) => {
+                    console.log(response)
+                    const results = response.data.map(item => {
+                        return {
+                            id: item.district,//this will treat as id for current option
+                            text: item.district//This will be treat as DATA FOR VIEW
+                        };
+                    });
+                    return {
+                        results: results
+                    }
+                },
+            },
+        })
+    }
+
+    // Add new row for Education
+    $('#addEducationRow').click(function () {
+        $('#educationTable tbody').append(`
+                    <tr>
+                        <td><input type="text" class="form-control" name="qualification[]" required></td>
+                        <td><input type="text" class="form-control" name="institution[]" required></td>
+                        <td><input type="number" class="form-control" name="gradYear[]" required></td>
+                        <td>
+                            <button type="button" class="btn btn-danger removeRow">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                         </td>
+                    </tr>
+                `);
+    });
+
+    // Remove Education row
+    $(document).on('click', '.removeRow', function () {
+        $(this).closest('tr').remove();
+    });
+
+    // Add new Work Experience
+    $('#addExperience').click(function () {
+        $('#workExperience').append(`
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="jobTitle" class="form-label">Job Title</label>
+                            <input type="text" class="form-control" name="jobTitle[]" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="companyName" class="form-label">Company Name</label>
+                            <input type="text" class="form-control" name="companyName[]" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="duration" class="form-label">Duration</label>
+                            <input type="text" class="form-control" name="duration[]" required>
+                        </div>
+                        <div class="col-md-1 d-flex align-items-end">
+                            <button type="button" class="btn btn-danger removeExperience">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `);
+    });
+
+    // Remove Work Experience
+    $(document).on('click', '.removeExperience', function () {
+        $(this).closest('.row').remove();
+    });
+
+    // Form submission
+    $('#cvForm').submit(function (e) {
+        e.preventDefault();
+        alert('Form submitted successfully!');
+    });
+</script>
+</body>
+</html>
