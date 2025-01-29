@@ -22,6 +22,7 @@
     </style>
 
 </head>
+
 <body>
 <div class="container py-5">
     <h1 class="text-center mb-4">Mst. Nipa Khatun</h1>
@@ -124,13 +125,8 @@
                 </div>
             </div>
         </div>
-
-
-
         <br>
 
-
-        <!--Dymanic row korte hobe-->
         <div class="mb-4">
             <h3>Experience</h3>
 
@@ -161,8 +157,7 @@
                 Add Experience</button>
         </div>
 
-        <!--Select2-->
-        <div class="mb-7">
+        <div class="mb-4">
             <h3>Languages</h3>
             <div>
                 <select class="select2 languages" style="width: 100%;"></select>
@@ -173,56 +168,65 @@
     </form>
 </div>
 
+
+
 <script>
     $(document).ready(function () {
-        $(".subSkills").select2({
-            multiple:true
-        });//just for object creation to show same UI as like skills
-        $(".skills").select2({
-            minimumInputLength: 0,
-            allowClear: true,
-            multiple: true,
-            ajax: {
-                url: "http://localhost:8086/api/skills",
+        $(".subSkills").select2({ //here subskills initialize kore nichi jate page load dile subskills o load hoy.
+            multiple:true        //subskills multiple select korar jonno true kore dilam
+        });                      //just for object creation to show same UI as like skills
+
+        $(".skills").select2({     //skills class ta jquery te call dichi karon ei class ei kaj korbo.sathe select2 hobe
+            minimumInputLength: 0, //jokhon input gulo show korbe minimumlenght 0 kore dichi.
+            allowClear: true,    //jate cross kore kete diti pare tai clear allow true dichi.
+            multiple: true,       // select2 multipple option jate seltect korte pari
+            ajax: {              //ajax call means api call korbo er moddhe ,sob ajax function same.
+                url: "http://localhost:8086/api/skills",  //eta hocche amr skills er api er url call j tar kaj ami backend kore eshechi
                 headers: {
-                    "Content-Type": "application/json",
-                    "Accept": "application/json"
+                    "Content-Type": "application/json",    //header e content er application ami json akare nichhi
+                    "Accept": "application/json"          //same accept o kortechi json akare
                 },
-                dataType: 'json',
-                delay: 500,// wait 500 milliseconds before triggering the request
-                processResults: (response, params) => {
-                    console.log(response)
-                    const results = response.map(item => {
+                dataType: 'json',                        //just bole dicchi amr data type json
+                delay: 500,                            // wait 500 milliseconds before triggering the request
+
+                processResults: (response, params) => {  //ekhane amr processing API response. akare j params pathacch
+                                                     //params amr paramRequest moto kaj korche ekhane
+                    console.log(response)             // log response console for debugging.
+
+                    const results = response.map(item => { //**Confused-transforming the Response Data,array r objects kortechi karon array akare value ase.proti ta object er moddhe mane array te valu ase oguloi item
                         return {
-                            id: item.id,//this will treat as value
-                            text: item.name//This will be treat as data
+                            id: item.id,//this will treat as value for dropdowns
+                            text: item.name//This will be treat as display text.
                         };
                     });
                     return {
-                        results: results
+                        results: results //results array is returned as aobject.
                     }
                 },
             },
         });
+
+
 
         $(".languages").select2({
             minimumInputLength: 0,
             allowClear: true,
             multiple: true,
             ajax: {
-                url: "http://localhost:8086/get/json/language",
+                url: "http://localhost:8086/get/json/language", //url amr laguage er APIcall korchi
                 headers: {
                     "Content-Type": "application/json",
                     "Accept": "application/json"
                 },
                 dataType: 'json',
                 delay: 500,// wait 500 milliseconds before triggering the request
-                data: (params) => {
+                data: (params) => {    //eikahne pagination ase tai ei data r kaj kortechi
                     return {
                         searchData: params.term, //searchable text.
-                        page: params.page || 1
+                        page: params.page || 1   //jodi param.page thake tahole oi current page show korbe otherwise 1,mane params.page undefinded
                     }
                 },
+
                 processResults: (response, params) => {
                     debugger
                     console.log(response)
@@ -234,7 +238,7 @@
                     });
                     return {
                         results: results,
-                        pagination: {
+                        pagination: { //ei kaj ta extra karon akhne amader pagination er kaj ase,jekane page load er jonno kaj kora
                             more: ((params.page || 1) * 10) < response.totalElements//*per page we get 10 data here*/
                         }
                     }
@@ -242,21 +246,19 @@
             },
         });
 
-        $("#division").select2({
+
+        $("#division").select2({   //html e devision section amra ekta devision name e id rakhi otar uporei ekhane jquery kortechi
             minimumInputLength: 0,
             allowClear: true,
             multiple: false,
             ajax: {
                 url: 'https://bdapis.com/api/v1.2/divisions',//This is public api
-                /* headers: {
-                     "Content-Type": "application/json",
-                     "Accept": "application/json"
-                 },*/
+
                 dataType: 'json',
                 delay: 500,
                 processResults: (response, params) => {
                     console.log(response)
-                    const results = response.data.map(item => {
+                    const results = response.data.map(item => { //same as skills er details ekhane item e content er value gulo.like dhaka,rajshahi.
                         return {
                             id: item.division,//this will treat as value
                             text: item.division//This will be treat as data
@@ -268,17 +270,13 @@
                 },
             },
         })
-    })
+    })  //ready funtion er kaj shesh
 
 
-    function getSelectedData() {
-        let value = $(".skills").val();
-        alert(value)
-    }
 
-    function getSelectedData2() {
-        let value = $(".languages.select2").val();
-        alert(value)
+    function getSelectedData2() {   //ami to language ta k multiple slect dichi tai okhane 0nclick j funtion likhe rakhchi ota dhorei ekhane kaj krtechi.
+        let value = $(".languages.select2").val(); //amr language class take select2 kortechi sathe value r moddhe rakhtechi
+        alert(value) //**Wanna know this
     }
 
 
