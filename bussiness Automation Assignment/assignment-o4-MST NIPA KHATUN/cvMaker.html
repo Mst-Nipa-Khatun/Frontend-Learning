@@ -20,8 +20,8 @@
             height: 36px !important;
         }
     </style>
-
 </head>
+
 <body>
 <div class="container py-5">
     <h1 class="text-center mb-4">Mst. Nipa Khatun</h1>
@@ -66,7 +66,8 @@
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="district" class="form-label required">District</label>
-                    <select class="form-select select2" id="district" name="district">
+                    <select
+                            class="form-select select2" id="district" name="district">
 
                     </select>
                 </div>
@@ -90,21 +91,20 @@
                     <td><input type="text" class="form-control " name="qualification[]"></td>
                     <td><input type="text" class="form-control" name="institution[]"></td>
                     <td><input type="number" class="form-control" name="gradYear[]"></td>
-
-                    <!--ForntAwesome use korte hobe-->
                     <td>
                         <button type="button" class="btn btn-danger removeRow">
                             <i class="fa-solid fa-trash"></i>
                             </button>
                     </td>
+                    <td>
+                        <button type="button" class="btn btn-primary" id="addEducationRow">
+                            <i class="fa-solid fa-add"></i></button>
+                    </td>
                 </tr>
-
                 </tbody>
             </table>
-            <button type="button" class="btn btn-primary" id="addEducationRow">
-                <i class="fa-solid fa-add"></i>
-                Add Row</button>
         </div>
+
 
         <div class="mb-4">
             <h3>Skills and Sub Skills</h3>
@@ -114,7 +114,6 @@
                     <select class="form-select select2 skills w-100" id="skills">
 
                     </select>
-
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="subSkills" class="form-label">Sub Skills</label>
@@ -124,16 +123,11 @@
                 </div>
             </div>
         </div>
-
-
-
         <br>
 
 
-        <!--Dymanic row korte hobe-->
         <div class="mb-4">
-            <h3>Experience</h3>
-
+            <h3>Work   Experience</h3>
             <div id="workExperience">
                 <div class="row mb-3">
                     <div class="col-md-4">
@@ -161,12 +155,12 @@
                 Add Experience</button>
         </div>
 
-        <!--Select2-->
-        <div class="mb-7">
+
+        <div class="mb-4">
             <h3>Languages</h3>
             <div>
                 <select class="select2 languages" style="width: 100%;"></select>
-                <button onclick="getSelectedData2()">Click</button>
+                <button onclick="getSelectedData()">Click</button>
             </div>
         </div>
 
@@ -216,7 +210,7 @@
                     "Accept": "application/json"
                 },
                 dataType: 'json',
-                delay: 500,// wait 500 milliseconds before triggering the request
+                delay: 500,
                 data: (params) => {
                     return {
                         searchData: params.term, //searchable text.
@@ -228,8 +222,8 @@
                     console.log(response)
                     const results = response.content.map(item => {
                         return {
-                            id: item.id,//this will treat as value
-                            text: item.name//This will be treat as data for show
+                            id: item.id,
+                            text: item.name
                         };
                     });
                     return {
@@ -248,18 +242,15 @@
             multiple: false,
             ajax: {
                 url: 'https://bdapis.com/api/v1.2/divisions',//This is public api
-                /* headers: {
-                     "Content-Type": "application/json",
-                     "Accept": "application/json"
-                 },*/
+
                 dataType: 'json',
                 delay: 500,
                 processResults: (response, params) => {
                     console.log(response)
                     const results = response.data.map(item => {
                         return {
-                            id: item.division,//this will treat as value
-                            text: item.division//This will be treat as data
+                            id: item.division,
+                            text: item.division
                         };
                     });
                     return {
@@ -269,31 +260,6 @@
             },
         })
     })
-
-
-    function getSelectedData() {
-        let value = $(".skills").val();
-        alert(value)
-    }
-
-    function getSelectedData2() {
-        let value = $(".languages.select2").val();
-        alert(value)
-    }
-
-
-    $('#division').change(function () {
-        // Fetch Districts based on Division name
-        const divisionName = $(this).val();
-        loadDistrictByDivisionName(divisionName)
-    });
-
-    $('.skills').change(function () {
-        // Fetch Districts based on Division name
-        const selectedSkillId = $(this).val();
-        loadSubSkillsBySkillId(selectedSkillId)
-    });
-
     function loadSubSkillsBySkillId(skillId) {
         $(".subSkills").select2({
             minimumInputLength: 0,
@@ -306,7 +272,7 @@
                     "Accept": "application/json"
                 },
                 dataType: 'json',
-                delay: 500,// wait 500 milliseconds before triggering the request
+                delay: 500,
                 processResults: (response, params) => {
                     console.log(response)
                     const results = response.map(item => {
@@ -322,6 +288,24 @@
             },
         });
     }
+
+
+    $('.skills').change(function () {
+        const selectedSkillId = $(this).val();
+        loadSubSkillsBySkillId(selectedSkillId)
+    });
+
+    function getSelectedData() {
+        let value = $(".languages.select2").val();
+        alert(value)
+    }
+
+
+    $('#division').change(function () {
+        const divisionName = $(this).val();
+        loadDistrictByDivisionName(divisionName)
+    });
+
 
 
     function loadDistrictByDivisionName(divisionName) {
@@ -351,7 +335,7 @@
         })
     }
 
-    // Add new row for Education
+
     $('#addEducationRow').click(function () {
         $('#educationTable tbody').append(`
                     <tr>
@@ -367,12 +351,12 @@
                 `);
     });
 
-    // Remove Education row
+
     $(document).on('click', '.removeRow', function () {
         $(this).closest('tr').remove();
     });
 
-    // Add new Work Experience
+
     $('#addExperience').click(function () {
         $('#workExperience').append(`
                     <div class="row mb-3">
@@ -397,16 +381,15 @@
                 `);
     });
 
-    // Remove Work Experience
     $(document).on('click', '.removeExperience', function () {
         $(this).closest('.row').remove();
     });
-
-    // Form submission
+/*
     $('#cvForm').submit(function (e) {
         e.preventDefault();
         alert('Form submitted successfully!');
-    });
+    });*/
+
 </script>
 </body>
 </html>
