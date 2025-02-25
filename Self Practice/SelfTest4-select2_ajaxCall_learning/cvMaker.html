@@ -91,8 +91,6 @@
                     <td><input type="text" class="form-control " name="qualification[]"></td>
                     <td><input type="text" class="form-control" name="institution[]"></td>
                     <td><input type="number" class="form-control" name="gradYear[]"></td>
-
-                    <!--ForntAwesome use korte hobe-->
                     <td>
                         <button type="button" class="btn btn-danger removeRow">
                             <i class="fa-solid fa-trash"></i>
@@ -165,10 +163,12 @@
             </div>
         </div>
 
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary submit">Submit</button>
+        </div>
+
     </form>
 </div>
-
-
 
 <script>
     $(document).ready(function () {
@@ -190,8 +190,19 @@
                 delay: 500,                            // wait 500 milliseconds before triggering the request
 
                 processResults: (response, params) => {  //ekhane amr processing API response. akare j params pathacch
-                                                     //params amr paramRequest moto kaj korche ekhane
-                    console.log(response)             // log response console for debugging.
+                    console.log(response)             // js print method eta
+
+                    /*let select2DataList = [];
+
+                    response.forEach(current=>{
+                        let select2Data = {
+                            id: current.id,
+                            text: current.name
+                        }
+                        select2DataList.push(select2Data)
+                    })*/
+
+
 
                     const results = response.map(item => { //**Confused-transforming the Response Data,array r objects kortechi karon array akare value ase.proti ta object er moddhe mane array te valu ase oguloi item
                         return {
@@ -276,29 +287,19 @@
 
     function getSelectedData2() {   //ami to language ta k multiple slect dichi tai okhane 0nclick j funtion likhe rakhchi ota dhorei ekhane kaj krtechi.
         let value = $(".languages.select2").val(); //amr language class take select2 kortechi sathe value r moddhe rakhtechi
+
         alert(value) //**Wanna know this
     }
 
 
-    $('#division').change(function () {
-        // Fetch Districts based on Division name
-        const divisionName = $(this).val();
-        loadDistrictByDivisionName(divisionName)
-    });
 
-    $('.skills').change(function () {
-        // Fetch Districts based on Division name
-        const selectedSkillId = $(this).val();
-        loadSubSkillsBySkillId(selectedSkillId)
-    });
-
-    function loadSubSkillsBySkillId(skillId) {
-        $(".subSkills").select2({
+    function loadSubSkillsBySkillId(skillId) {   //skillId dhore subslik change hocche oatr kaj ekhane
+        $(".subSkills").select2({                 //Jquery te subSkills class er sathe select2 add korlam karon subskils ew multiple choice ase.
             minimumInputLength: 0,
             allowClear: true,
             multiple: true,
             ajax: {
-                url: "http://localhost:8086/api/skills/sub-skills/"+skillId,
+                url: "http://localhost:8086/api/skills/sub-skills/"+skillId,  //amr skills er j kaj korchu j API r url tar sathe skillId add kore search korbo.
                 headers: {
                     "Content-Type": "application/json",
                     "Accept": "application/json"
@@ -321,21 +322,30 @@
         });
     }
 
+    $('.skills').change(function () {
+        //skills class er change holei amr ei loadskillby skills id funtion kaj korbe oi funtion.
+        // Fetch Districts based on Division name
+        const selectedSkillId = $(this).val();
+        loadSubSkillsBySkillId(selectedSkillId) //function kaj uporei kore nichi niche call dicchi selectedskillsId dhore(**)
+    });
 
-    function loadDistrictByDivisionName(divisionName) {
 
-        $("#district").select2({
+
+    function loadDistrictByDivisionName(divisionName) { //same skills and subskills er work
+
+        $("#district").select2({ //just id dhore kaj korche
             /*Without pagination select2*/
             minimumInputLength: 0,
             allowClear: true,
             multiple: false,
             ajax: {
-                url: 'https://bdapis.com/api/v1.2/division/' + divisionName,/*This is public api*/
+                url: 'https://bdapis.com/api/v1.2/division/' + divisionName,/*This is public api*/  //sathe division er url er sthate divisionName add kore search kora
                 dataType: 'json',
                 delay: 500,
                 processResults: (response, params) => {
                     console.log(response)
                     const results = response.data.map(item => {
+                        /*"<option id='sss' value='asd'></option>"*/
                         return {
                             id: item.district,//this will treat as id for current option
                             text: item.district//This will be treat as DATA FOR VIEW
@@ -349,8 +359,17 @@
         })
     }
 
-    // Add new row for Education
-    $('#addEducationRow').click(function () {
+    $('#division').change(function () {
+        //jokhon division id er upore kono change hocche
+        // Fetch Districts based on Division name
+        const divisionName = $(this).val();  //API te divisionName mane specefic division dhore kaj korchi r jquery te this. value nicchi
+        loadDistrictByDivisionName(divisionName)  //load district hocche division dhore oi funtion ta upore kaj korchi.
+    });
+
+
+
+//Wanna know something is here
+    $('#addEducationRow').click(function () {  //html e addEdu id niye eshe ekhane jquery kortechi
         $('#educationTable tbody').append(`
                     <tr>
                         <td><input type="text" class="form-control" name="qualification[]" required></td>
@@ -365,13 +384,14 @@
                 `);
     });
 
-    // Remove Education row
-    $(document).on('click', '.removeRow', function () {
-        $(this).closest('tr').remove();
+    $('.removeRow').click(function () {  //eduTable id te remove row class e onclick funtion korchi
+        $(this).closest('tr').remove(); //sathe this diye mane oi class ei sob theeke kase j row ota dlt hoye jacche.
     });
 
-    // Add new Work Experience
+
+
     $('#addExperience').click(function () {
+        //same same edu
         $('#workExperience').append(`
                     <div class="row mb-3">
                         <div class="col-md-4">
@@ -395,16 +415,16 @@
                 `);
     });
 
-    // Remove Work Experience
-    $(document).on('click', '.removeExperience', function () {
+    $(document).on('click', '.removeExperie]nce', function () {
         $(this).closest('.row').remove();
     });
 
-    // Form submission
-    $('#cvForm').submit(function (e) {
+
+    $('#cvForm').submit(function (e) { //for submit button
         e.preventDefault();
         alert('Form submitted successfully!');
     });
+
 </script>
 </body>
 </html>

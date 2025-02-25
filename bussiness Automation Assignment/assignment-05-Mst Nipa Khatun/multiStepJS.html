@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step JS Form</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/stepJSStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/css/intlTelInput.css">
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
+            integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css"
+          integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+
+    <script src="https://cdn.tiny.cloud/1/47off37rcol1c6eingfumhuigridpygjgbjv68c3mif7u4qq/tinymce/7/tinymce.min.js"
+            referrerpolicy="origin"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tinymce/tinymce-jquery@2/dist/tinymce-jquery.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="container-fluid" id="grad">
+        <div class="row justify-content-center">
+            <div class=" text-center">
+                <div class="card pt-4 mt-3 mb-7">
+                    <h2>Multi-Step Event Planner Application</h2>
+                    <p>Fill all form field to go to next step</p>
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form id="msform">
+                                <ul id="progressbar">
+                                    <li class="active" id="account"><strong>1.Account</strong></li>
+                                    <li id="personal"><strong>2.Profile</strong></li>
+                                    <li id="payment"><strong>3.Event</strong></li>
+                                    <li id="confirm"><strong>4.Finish</strong></li>
+                                </ul>
+
+
+                                <fieldset>
+                                    <div class="form-card" style="background-color: #d2e4e8">
+                                        <h2 class="fs-title">Account Information</h2>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="username"
+                                                       class="form-label required"><b>Username</b></label>
+                                                <input required type="text" name="uname" id="username"
+                                                       style="background-color: whitesmoke" placeholder="UserName"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="password"
+                                                       class="form-label required"><b>Password</b></label>
+                                                <input required type="password" name="uname" id="password"
+                                                       style="background-color: whitesmoke" placeholder="password"/>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="confirmPassword" class="form-label required"><b>Confirm
+                                                    Password</b></label>
+                                                <input required type="password" name="uname" id="confirmPassword"
+                                                       style="background-color: whitesmoke"
+                                                       placeholder="confirm password"/>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <input
+                                            type="button" name="next" class="accountValidationNext action-button"
+                                            value="Next"/>
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="form-card" style="background-color: #d2e4e8">
+                                        <h2 class="fs-title">Personal Information</h2>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="firstname" class="form-label required"><strong>First
+                                                    Name</strong></label>
+                                                <input type="text" name="uname" id="firstname"
+                                                       style="background-color: whitesmoke"
+                                                       placeholder="Enter your first name"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="lastname" class="form-label required"><strong>Last
+                                                    Name</strong></label>
+                                                <input type="text" name="uname" id="lastname"
+                                                       style="background-color: whitesmoke"
+                                                       placeholder="Enter your last name"/>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="email"
+                                                       class="form-label required"><strong>Email</strong></label>
+                                                <input type="email" name="uname" id="email"
+                                                       style="background-color: whitesmoke"
+                                                       placeholder="Enter your email"/>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="phone"
+                                                       class="form-label required"><strong>Phone</strong></label>
+                                                <input type="tel" name="uname" id="phone"
+                                                       style="background-color: whitesmoke"/>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="address" class="form-label"> Address </label>
+                                                <textarea class="form-control" id="address" rows="4"
+                                                          style="background-color: whitesmoke"
+                                                          placeholder="Enter Address"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <input type="button" name="previous" class="previous action-button-previous"
+                                           value="Previous"/>
+                                    <input type="button" name="next" class="profileValidationNext action-button"
+                                           value="Next"/>
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="form-card" style="background-color: #d2e4e8">
+                                        <h2 class="fs-title">Event Details</h2>
+
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="autocomplete" class="form-label"><strong>Event
+                                                    Venue</strong></label>
+                                                <input type="text" name="uname" id="autocomplete"
+                                                       style="background-color: whitesmoke"
+                                                       placeholder="Enter your venue"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="datepicker" class="form-label"><strong>Event
+                                                    Date</strong></label>
+                                                <input type="text" id="datepicker" placeholder="Select a date">
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col">
+                                                <label for="tiny" class="form-label"><strong>Event
+                                                    Description</strong></label>
+                                                <textarea type="text" name="uname" id="tiny"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="button" name="previous" class="previous action-button-previous"
+                                           value="Previous"/>
+                                    <input type="button" name="next" class="eventValidationNext action-button"
+                                           value="Next"/>
+
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="form-card" style="background-color: #b2d7df">
+                                        <div class="row">
+                                            <h3 class="fs-title">Review and Confirmation</h3><br><br>
+                                        </div>
+                                        <div class="mb-3 form-check">
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <input type="checkbox" id="terms" class="form-check-input ">
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <label for="terms" class="form-check-label">
+                                                        I agree this conditions
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <br><br>
+                                        <br>
+
+                                    </div>
+
+                                    <div>
+                                        <input type="button" name="previous" class="previous action-button-previous"
+                                               value="Previous"/>
+
+                                        <input type="button" name="button" class="action-button" id="success"
+                                               value="Finish"/>
+                                        <!--
+                                                                                <input type="submit" name="email_submit" value="submit" onclick="if(!this.form.checkbox.checked){alert('You must agree to the terms first.');return false}"  />
+                                        -->
+                                    </div>
+                                </fieldset>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //for email
+    const validateEmail = (email) => {
+        return String(email)
+            .toLowerCase()
+            .match(
+                /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            );
+    };
+    //for phone
+    const validatePhone = (phone) => {
+        return String(phone)
+            .toLowerCase()
+            .match(/(^(\+88|0088)?(01){1}[3456789]{1}(\d){8})$/);
+    };
+
+    $(document).ready(function () {
+        toastr.success('Welcome to this page');
+
+        var current_fs, next_fs, previous_fs; //fieldsets
+        var opacity;
+
+        function proceedToNextStep(button) {
+            let current_fs = button.parent();
+            let next_fs = button.parent().next();
+
+            // Add Class Active
+            $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+            // Show the next fieldset
+            next_fs.show();
+
+            // Hide the current fieldset with animation
+            current_fs.animate({opacity: 0}, {
+                step: function (now) {
+                    let opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    next_fs.css({'opacity': opacity});
+                },
+                duration: 600
+            });
+        }
+
+        $(".accountValidationNext").click(function () {
+
+            let validationOK = accountInfoValidation();
+            if (validationOK) {
+                proceedToNextStep($(this));
+            }
+        });
+
+        $(".profileValidationNext").click(function () {
+            let validationOk = profileValidationNext();
+            if (validationOk) {
+                proceedToNextStep($(this));
+            }
+        });
+        $(".eventValidationNext").click(function () {
+            let validationOk = eventValidationNext();
+            if (validationOk) {
+                proceedToNextStep($(this));
+            }
+        });
+        $(".previous").click(function () {
+
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+
+            //Remove class active
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+            //show the previous fieldset
+            previous_fs.show();
+
+            //hide the current fieldset with style
+            current_fs.animate({opacity: 0}, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    previous_fs.css({'opacity': opacity});
+                },
+                duration: 600
+            });
+        });
+
+
+        //Intl-Input for phone
+        const phoneInput = document.querySelector("#phone");
+        window.intlTelInput(phoneInput, {
+            separateDialCode: true,
+            initialCountry: "bd", //"bd","us","af"
+            preferredCountries: ["bd", "af", "us"],
+            //onlyCountries:["bd"],
+            loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.1/build/js/utils.js"),
+        });
+
+        const eventVenues = [
+            "Bangabandhu International Conference Center",
+            "International Convention City Bashundhara",
+            "Radisson Blu Dhaka Water Garden",
+            "Pan Pacific Sonargaon Dhaka",
+            "Grand Sultan Tea Resort & Golf",
+            "Le Méridien Dhaka",
+            "The Westin Dhaka",
+            "Hotel InterContinental Dhaka",
+            "Army Golf Club Convention Hall",
+            "Gulshan Club",
+            "Bashundhara Convention Center",
+            "Dhaka Regency Hotel & Resort",
+            "Chittagong Club",
+            "KIB Convention Hall",
+            "RAOWA Convention Hall",
+            "Celebrity Convention Hall",
+            "Navana Convention Hall",
+            "Police Convention Hall",
+            "Sylhet International Convention Center",
+            "BRAC CDM Rajendrapur"
+        ];
+        $('#autocomplete').autocomplete({
+            source: eventVenues,
+            miniLength: 1,
+            delay: 100
+        });
+
+        //TinyMCE
+        $('textarea#tiny').tinymce({
+            height: 500,
+            menubar: false,
+            plugins: [
+                'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
+                'anchor', 'searchreplace', 'visualblocks', 'fullscreen',
+                'insertdatetime', 'media', 'table', 'code', 'help', 'wordcount'
+            ],
+            toolbar: 'undo redo | blocks | bold italic backcolor | ' +
+                'alignleft aligncenter alignright alignjustify | ' +
+                'bullist numlist outdent indent | removeformat | help'
+        });
+
+        //Toastr
+        $('#success').click(function () {
+            toastr.success('Successfully Finished');
+        });
+
+        $("#datepicker").datepicker({
+            dateFormat: "dd-mm-yy", // Custom date format
+            // minDate: "1", // Minimum date is set to 1 day ahead
+            // maxDate: "+1m",
+            changeMonth: true,
+            changeYear: true,
+        });
+
+
+        $('.radio-group .radio').click(function () {
+            $(this).parent().find('.radio').removeClass('selected');
+            $(this).addClass('selected');
+        });
+
+        $(".submit").click(function () {
+            return false;
+        })
+
+    });
+
+    function accountInfoValidation() {
+        let username = $("#username").val();
+        let password = $("#password").val();
+        let confirmPassword = $("#confirmPassword").val();
+        if (username === undefined || username === '' || username.trim() === '') {
+            toastr.error("username is required.")
+            return false;
+        }
+        if (password === undefined || password === '' || password.trim() === '') {
+            toastr.error("password is required.")
+            return false;
+        }
+        if (confirmPassword === undefined || confirmPassword === '' || confirmPassword.trim() === '') {
+            toastr.error("confirmPassword is required.")
+            return false;
+        }
+
+        if (password !== confirmPassword) {
+            toastr.error("Password doesn't matched")
+            return false;
+        }
+        return true;
+    }
+
+    function profileValidationNext() {
+        let firstname = $("#firstname").val();
+        let lastname = $("#lastname").val();
+        let email = $("#email").val();
+        let phone = $("#phone").val();
+        if (firstname === undefined || firstname === '' || firstname.trim() === '') {
+            toastr.error("Firstname is required")
+            return false;
+        }
+        if (lastname === undefined || lastname === '' || lastname.trim() === '') {
+            toastr.error("Lastname is required")
+            return false;
+        }
+        if (email === undefined || email === '' || email.trim() === '') {
+            toastr.error("Email is required")
+            return false;
+        }
+        if (!validateEmail(email)) {
+            toastr.error("Email pattern is not valid")
+            return false;
+        }
+        if (phone === undefined || phone === '' || phone.trim() === '') {
+            toastr.error("Phone is required")
+            return false;
+        }
+        if (!validatePhone(phone)) {
+            toastr.error("Phone number is not valid pattern")
+            return false;
+        }
+
+        return true;
+    }
+
+    function eventValidationNext() {
+        let autocomplete = $("#autocomplete").val();
+        let datepicker = $("#datepicker").val();
+        let tiny = $("#tiny").val();
+        if (autocomplete === undefined || autocomplete === '' || autocomplete.trim() === '') {
+            toastr.error("Event Venue is required")
+            return false;
+        }
+        if (datepicker === undefined || datepicker === '' || datepicker.trim() === '') {
+            toastr.error("Event date is required")
+            return false;
+        }
+        if (tiny === undefined || tiny === '' || tiny.trim() === '') {
+            toastr.error("Event description is required")
+            return false;
+        }
+
+        return true;
+    }
+
+</script>
+
+</body>
+
+</html>
