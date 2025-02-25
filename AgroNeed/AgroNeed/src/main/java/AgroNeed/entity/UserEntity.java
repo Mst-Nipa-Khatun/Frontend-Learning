@@ -15,7 +15,7 @@ public class UserEntity extends BaseEntity {
      private String email;
 
      @Column(name = "password_hash")
-     private String password_hash;
+     private String passwordHash;
 
      @Column(name = "address")
      private String address;
