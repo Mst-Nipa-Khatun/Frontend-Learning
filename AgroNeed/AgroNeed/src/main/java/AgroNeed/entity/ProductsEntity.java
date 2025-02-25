@@ -8,18 +8,18 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "Products")
-public class ProductsEntity extends BaseEntity{
+public class ProductsEntity extends BaseEntity {
 
     @Column(name = "name")
     private String name;
-       @Column(name = "description")
+    @Column(name = "description")
     private String description;
-       @Column(name = "price")
+    @Column(name = "price")
     private Double price;
-       @Column(name = "stock")
+    @Column(name = "stock")
     private Integer stock;
-         @Column(name = "image_url")
-    private Integer image_url;
+    @Column(name = "image_url")
+    private Integer imageUrl;
 
 
 //    product_id INT PRIMARY KEY AUTO_INCREMENT,
