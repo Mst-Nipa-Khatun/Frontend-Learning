@@ -1,17 +1,17 @@
 package AgroNeed.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
 @Entity
 @Table(name = "categories")
 public class CategoriesEntity extends BaseEntity {
+
     @Column(name = "name")
     private String name;
-     @Column(name = "parent_id")
+
+    @Column(name = "parent_id")
     private Integer parentId;
 
 
