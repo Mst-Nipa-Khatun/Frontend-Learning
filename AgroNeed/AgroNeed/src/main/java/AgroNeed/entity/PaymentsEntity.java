@@ -17,8 +17,6 @@ public class PaymentsEntity extends BaseEntity{
     private String paymentMethod;
      @Column(name = "amount")
     private Double amount;
-     @Column(name = "status")
-    private String status;
 
 //    payment_id INT PRIMARY KEY AUTO_INCREMENT,
 //    order_id INT,
